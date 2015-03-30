@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "repository": "https://github.com/leobalter/qunit-regexp",
   "scripts": {
-    "test": "grunt"
+    "test": "grunt jshint jscs && istanbul cover test/regexp.js"
   },
   "keywords": [
     "qunit",
@@ -19,6 +19,7 @@
     "grunt-contrib-jshint": "^0.11.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-jscs": "^1.6.0",
+    "istanbul": "^0.3.13",
     "load-grunt-tasks": "^3.1.0",
     "qunit-reporter-stdout": "^0.1.0",
     "qunitjs": "^1.17.1"
