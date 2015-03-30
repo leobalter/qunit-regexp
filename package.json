@@ -1,0 +1,26 @@
+{
+  "name": "qunit-regexp",
+  "version": "1.0.0",
+  "description": "QUnit plugin to create RegExp assertions",
+  "main": "lib/index.js",
+  "repository": "https://github.com/leobalter/qunit-regexp",
+  "scripts": {
+    "test": "grunt"
+  },
+  "keywords": [
+    "qunit",
+    "tests",
+    "regexp"
+  ],
+  "author": "Leo Balter",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^1.6.0",
+    "load-grunt-tasks": "^3.1.0",
+    "qunit-reporter-stdout": "^0.1.0",
+    "qunitjs": "^1.17.1"
+  }
+}
