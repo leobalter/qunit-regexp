@@ -1,5 +1,7 @@
 # qunit-regexp
 
+[![Build Status](https://travis-ci.org/leobalter/qunit-regexp.svg)](https://travis-ci.org/leobalter/qunit-regexp)
+
 A QUnit plugin to assert regexp tests. The advantage of using it is the fail output showing the string and the regexp values.
 
 ## Install
